@@ -2,10 +2,12 @@ package com.example;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by Sasha on 28.01.2017.
  */
+@Component
 public class DatabaseLoader implements CommandLineRunner {
 
     private final EmployeeRepository repository;
